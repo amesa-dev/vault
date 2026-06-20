@@ -1,0 +1,9 @@
+# Obsidian-specific files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/backups/
+.obsidian/cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
