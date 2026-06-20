@@ -14,7 +14,7 @@ Espacio dedicado al crecimiento individual, hábitos, metas de vida, salud y bie
 
 ### 💼 [[Desarrollo Profesional/Inicio Profesional|Desarrollo Profesional]]
 Centro de aprendizaje, proyectos, desarrollo de carrera y documentación técnica.
-- *Secciones activas:* [[Desarrollo Profesional/TypeScript|TypeScript]], [[Desarrollo Profesional/Python|Python]].
+- *Secciones activas:* [[Desarrollo Profesional/TypeScript/TypeScript|TypeScript]], [[Desarrollo Profesional/Python/Python|Python]].
 - *Secciones sugeridas:* proyectos, portafolio, notas de reuniones.
 
 ---

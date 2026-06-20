@@ -10,10 +10,10 @@
 ## 🛠️ Tecnologías y Lenguajes
 Haz clic en cada sección para ver apuntes, cheat sheets y rutas de aprendizaje:
 
-### 📘 [[Desarrollo Profesional/TypeScript|TypeScript]]
+### 📘 [[Desarrollo Profesional/TypeScript/TypeScript|TypeScript]]
 - Conceptos clave, tipado estático, interfaces, genéricos e integración con frameworks.
 
-### 🐍 [[Desarrollo Profesional/Python|Python]]
+### 🐍 [[Desarrollo Profesional/Python/Python|Python]]
 - Estructuras de datos, programación funcional, POO, scripts y ciencia de datos.
 
 ---
