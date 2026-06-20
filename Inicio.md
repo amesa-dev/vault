@@ -14,7 +14,7 @@ Espacio dedicado al crecimiento individual, hábitos, metas de vida, salud y bie
 
 ### 💼 [[Desarrollo Profesional/Inicio Profesional|Desarrollo Profesional]]
 Centro de aprendizaje, proyectos, desarrollo de carrera y documentación técnica.
-- *Secciones activas:* [[Desarrollo Profesional/TypeScript/TypeScript|TypeScript]], [[Desarrollo Profesional/Python/Python|Python]], [[Desarrollo Profesional/PostgreSQL/PostgreSQL|PostgreSQL]], [[Desarrollo Profesional/GCP/GCP|GCP]], [[Desarrollo Profesional/Kubernetes/Kubernetes|Kubernetes]], [[Desarrollo Profesional/Grafana/Grafana|Grafana]], [[Desarrollo Profesional/Prometheus/Prometheus|Prometheus]], [[Desarrollo Profesional/Kibana/Kibana|Kibana]], [[Desarrollo Profesional/DDD/DDD|DDD]], [[Desarrollo Profesional/Arquitectura Hexagonal/Arquitectura Hexagonal|Arquitectura Hexagonal]], [[Desarrollo Profesional/Clean Code/Clean Code|Clean Code]].
+- *Secciones activas:* [[Desarrollo Profesional/TypeScript/TypeScript|TypeScript]], [[Desarrollo Profesional/Python/Python|Python]], [[Desarrollo Profesional/PostgreSQL/PostgreSQL|PostgreSQL]], [[Desarrollo Profesional/GCP/GCP|GCP]], [[Desarrollo Profesional/Kubernetes/Kubernetes|Kubernetes]], [[Desarrollo Profesional/Grafana/Grafana|Grafana]], [[Desarrollo Profesional/Prometheus/Prometheus|Prometheus]], [[Desarrollo Profesional/Kibana/Kibana|Kibana]], [[Desarrollo Profesional/DDD/DDD|DDD]], [[Desarrollo Profesional/Arquitectura Hexagonal/Arquitectura Hexagonal|Arquitectura Hexagonal]], [[Desarrollo Profesional/Clean Code/Clean Code|Clean Code]], [[Desarrollo Profesional/IA/IA|IA]].
 - *Secciones sugeridas:* proyectos, portafolio, notas de reuniones.
 
 ---

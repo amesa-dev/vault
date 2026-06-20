@@ -29,6 +29,9 @@ Haz clic en cada sección para ver apuntes, cheat sheets y rutas de aprendizaje:
 * 📐 [[Desarrollo Profesional/Arquitectura Hexagonal/Arquitectura Hexagonal|Arquitectura Hexagonal]] — Estructura de capas, Puertos y Adaptadores.
 * 🧹 [[Desarrollo Profesional/Clean Code/Clean Code|Clean Code]] — Principios de legibilidad, funciones, refactorización y SOLID.
 
+### 🤖 Inteligencia Artificial
+* 🤖 [[Desarrollo Profesional/IA/IA|IA (Inteligencia Artificial)]] — Ramas principales (ML, DL), LLMs, Prompt Engineering y patrón RAG.
+
 ---
 
 ## 🚀 Proyectos en Desarrollo
