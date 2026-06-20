@@ -27,6 +27,7 @@ Haz clic en cada sección para ver apuntes, cheat sheets y rutas de aprendizaje:
 ### 📐 Arquitectura y Diseño
 * 🧩 [[Desarrollo Profesional/DDD/DDD|DDD]] — Conceptos de Domain-Driven Design estratégico y táctico.
 * 📐 [[Desarrollo Profesional/Arquitectura Hexagonal/Arquitectura Hexagonal|Arquitectura Hexagonal]] — Estructura de capas, Puertos y Adaptadores.
+* 🧹 [[Desarrollo Profesional/Clean Code/Clean Code|Clean Code]] — Principios de legibilidad, funciones, refactorización y SOLID.
 
 ---
 
