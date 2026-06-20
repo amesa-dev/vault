@@ -24,6 +24,10 @@ Haz clic en cada sección para ver apuntes, cheat sheets y rutas de aprendizaje:
 * 🔥 [[Desarrollo Profesional/Prometheus/Prometheus|Prometheus]] — Métricas (Counter, Gauge, etc.) y consultas en PromQL.
 * 🧭 [[Desarrollo Profesional/Kibana/Kibana|Kibana]] — Descubrimiento de logs, visualizaciones y consultas KQL.
 
+### 📐 Arquitectura y Diseño
+* 🧩 [[Desarrollo Profesional/DDD/DDD|DDD]] — Conceptos de Domain-Driven Design estratégico y táctico.
+* 📐 [[Desarrollo Profesional/Arquitectura Hexagonal/Arquitectura Hexagonal|Arquitectura Hexagonal]] — Estructura de capas, Puertos y Adaptadores.
+
 ---
 
 ## 🚀 Proyectos en Desarrollo
