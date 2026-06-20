@@ -16,6 +16,9 @@ Haz clic en cada sección para ver apuntes, cheat sheets y rutas de aprendizaje:
 ### 🐍 [[Desarrollo Profesional/Python/Python|Python]]
 - Estructuras de datos, programación funcional, POO, scripts y ciencia de datos.
 
+### 🐘 [[Desarrollo Profesional/PostgreSQL/PostgreSQL|PostgreSQL]]
+- Consultas, tipos de uniones, índices, rendimiento y comandos de consola psql.
+
 ---
 
 ## 🚀 Proyectos en Desarrollo
