@@ -26,6 +26,8 @@ Sistemas y técnicas para trabajar con más profundidad y menos fricción.
 - [[Desarrollo Personal/Productividad/Deep Work|🎯 Deep Work]] — Trabajo cognitivo profundo sin interrupciones; cómo protegerlo
 - [[Desarrollo Personal/Productividad/Técnica Pomodoro|🍅 Técnica Pomodoro]] — Intervalos de foco con descansos regulares; por qué funciona
 - [[Desarrollo Personal/Productividad/Zettelkasten|🗃️ Zettelkasten]] — Sistema de notas que piensa contigo; aplicación en Obsidian
+- [[Desarrollo Personal/Productividad/Hábitos Atómicos|⚛️ Hábitos Atómicos]] — El 1% diario, sistemas vs metas, las cuatro leyes del cambio
+- [[Desarrollo Personal/Productividad/Aprender a Aprender|🧠 Aprender a Aprender]] — Recuerdo activo, repetición espaciada, técnica Feynman
 
 ---
 
@@ -46,6 +48,7 @@ El sustrato físico sobre el que descansa todo lo demás.
 - [[Desarrollo Personal/Salud y Bienestar/Higiene del Sueño|😴 Higiene del Sueño]] — Lo que ocurre en el cerebro mientras duermes y cómo mejorarlo
 - [[Desarrollo Personal/Salud y Bienestar/Ejercicio y Cognición|🏃 Ejercicio y Cognición]] — BDNF, Zona 2 y el efecto del ejercicio en el cerebro
 - [[Desarrollo Personal/Salud y Bienestar/Meditación|🧘 Meditación]] — Entrenamiento de la atención; tipos, evidencia y cómo empezar
+- [[Desarrollo Personal/Salud y Bienestar/Nutrición|🥗 Nutrición]] — Macronutrientes, balance energético, comida real vs ultraprocesados
 
 ---
 
@@ -55,6 +58,7 @@ Habilidades para conectar, entender y resolver conflictos.
 
 - [[Desarrollo Personal/Relaciones/Escucha Activa|👂 Escucha Activa]] — Los niveles de escucha y las técnicas que cambian conversaciones
 - [[Desarrollo Personal/Relaciones/Comunicación No Violenta|🕊️ Comunicación No Violenta]] — El modelo CNV de Rosenberg: observación, sentimiento, necesidad, petición
+- [[Desarrollo Personal/Relaciones/Negociación|🤝 Negociación]] — Posiciones vs intereses, método Harvard, BATNA, empatía táctica
 
 ---
 

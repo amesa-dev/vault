@@ -48,6 +48,11 @@
   * [[Desarrollo Profesional/PostgreSQL/Páginas/03 - Transacciones y MVCC|03 — Transacciones y MVCC]] — ACID, aislamiento, locks
   * [[Desarrollo Profesional/PostgreSQL/Páginas/04 - Funciones Avanzadas|04 — Funciones Avanzadas]] — JSONB, FTS, particionado, pgvector
 
+### 🟥 Redis
+* [[Desarrollo Profesional/Redis/Redis|Índice de Redis]]
+  * [[Desarrollo Profesional/Redis/Páginas/01 - Estructuras y Modelo|01 — Estructuras y Modelo]] — tipos de datos, atomicidad, persistencia, eviction
+  * [[Desarrollo Profesional/Redis/Páginas/02 - Patrones de Uso|02 — Patrones de Uso]] — caching, locks distribuidos, pub/sub, streams, rate limiting
+
 ---
 
 ## ☁️ Infraestructura y Cloud
@@ -65,6 +70,16 @@
   * [[Desarrollo Profesional/Kubernetes/Páginas/02 - Workloads|02 — Workloads]] — Deployment, StatefulSet, DaemonSet, Job
   * [[Desarrollo Profesional/Kubernetes/Páginas/03 - Networking|03 — Networking]] — Services, Ingress, NetworkPolicy, DNS
   * [[Desarrollo Profesional/Kubernetes/Páginas/04 - Configuración y Operación|04 — Configuración y Operación]] — ConfigMap, Secret, HPA, RBAC, kubectl
+
+### 🐳 Docker y Contenedores
+* [[Desarrollo Profesional/Docker y Contenedores/Docker y Contenedores|Índice de Docker]]
+  * [[Desarrollo Profesional/Docker y Contenedores/Páginas/01 - Fundamentos e Imágenes|01 — Fundamentos e Imágenes]] — namespaces, cgroups, capas, registries
+  * [[Desarrollo Profesional/Docker y Contenedores/Páginas/02 - Dockerfiles y Buenas Prácticas|02 — Dockerfiles y Buenas Prácticas]] — multi-stage, caché, imágenes mínimas, seguridad, compose
+
+### 🚀 CI/CD e Infraestructura como Código
+* [[Desarrollo Profesional/CI-CD e IaC/CI-CD e IaC|Índice de CI/CD e IaC]]
+  * [[Desarrollo Profesional/CI-CD e IaC/Páginas/01 - Pipelines CI-CD|01 — Pipelines CI/CD]] — CI/CD, GitHub Actions, estrategias de despliegue, DORA
+  * [[Desarrollo Profesional/CI-CD e IaC/Páginas/02 - IaC y GitOps|02 — IaC y GitOps]] — Terraform, Helm, ArgoCD, push vs pull
 
 ---
 
@@ -106,6 +121,48 @@
   * [[Desarrollo Profesional/Clean Code/Páginas/01 - Principios Fundamentales|01 — Principios Fundamentales]] — nombres, funciones, comentarios, Boy Scout Rule
   * [[Desarrollo Profesional/Clean Code/Páginas/02 - SOLID|02 — SOLID]] — SRP, OCP, LSP, ISP, DIP con Python
   * [[Desarrollo Profesional/Clean Code/Páginas/03 - Code Smells y Refactoring|03 — Code Smells y Refactoring]] — Long Method, God Class, Feature Envy, Primitive Obsession
+
+### 🔌 Diseño de APIs
+* [[Desarrollo Profesional/Diseño de APIs/Diseño de APIs|Índice de Diseño de APIs]]
+  * [[Desarrollo Profesional/Diseño de APIs/Páginas/01 - REST y Diseño de Recursos|01 — REST y Diseño de Recursos]] — madurez de Richardson, versionado, paginación, errores
+  * [[Desarrollo Profesional/Diseño de APIs/Páginas/02 - gRPC GraphQL y Alternativas|02 — gRPC, GraphQL y Alternativas]] — cuándo cada estilo, contratos, OpenAPI
+
+---
+
+## 🌐 Sistemas Distribuidos y Fiabilidad
+
+### 🌐 Sistemas Distribuidos y Mensajería
+* [[Desarrollo Profesional/Sistemas Distribuidos/Sistemas Distribuidos|Índice de Sistemas Distribuidos]]
+  * [[Desarrollo Profesional/Sistemas Distribuidos/Páginas/01 - Fundamentos y CAP|01 — Fundamentos y CAP]] — falacias de la red, CAP/PACELC, consistencia, relojes
+  * [[Desarrollo Profesional/Sistemas Distribuidos/Páginas/02 - Mensajería y Brokers|02 — Mensajería y Brokers]] — colas vs logs, garantías de entrega, Outbox
+  * [[Desarrollo Profesional/Sistemas Distribuidos/Páginas/03 - Transacciones Distribuidas|03 — Transacciones Distribuidas]] — 2PC, Sagas, idempotencia
+
+### 🛡️ Patrones de Resiliencia
+* [[Desarrollo Profesional/Patrones de Resiliencia/Patrones de Resiliencia|Índice de Patrones de Resiliencia]]
+  * [[Desarrollo Profesional/Patrones de Resiliencia/Páginas/01 - Timeouts Reintentos y Backoff|01 — Timeouts, Reintentos y Backoff]] — fallos transitorios, jitter, retry storm
+  * [[Desarrollo Profesional/Patrones de Resiliencia/Páginas/02 - Circuit Breaker y Aislamiento|02 — Circuit Breaker y Aislamiento]] — circuit breaker, bulkhead, rate limiting, degradación
+
+### 🏛️ Diseño de Sistemas (estilo Alex Xu)
+* [[Desarrollo Profesional/Diseño de Sistemas/Diseño de Sistemas|Índice de Diseño de Sistemas]] — fundamentos + 12 casos de estudio
+  * [[Desarrollo Profesional/Diseño de Sistemas/Plantilla de Entrevista|📋 Plantilla de Entrevista]] — worksheet de relleno y checklist
+  * 01–04 — método, estimaciones, escalar de cero a millones, almacenamiento, building blocks
+  * 05–16 — casos: Rate Limiter, URL Shortener, News Feed, Chat, Notificaciones, Autocompletado, Generador de IDs, Web Crawler, YouTube, Google Drive, Proximidad, Pagos
+
+---
+
+## 🔐 Seguridad y Calidad
+
+### 🔐 Seguridad Aplicada
+* [[Desarrollo Profesional/Seguridad Aplicada/Seguridad Aplicada|Índice de Seguridad Aplicada]]
+  * [[Desarrollo Profesional/Seguridad Aplicada/Páginas/01 - OWASP y Vulnerabilidades|01 — OWASP y Vulnerabilidades]] — inyección, XSS, CSRF, SSRF, deserialización
+  * [[Desarrollo Profesional/Seguridad Aplicada/Páginas/02 - Autenticación y Autorización|02 — Autenticación y Autorización]] — OAuth2, OIDC, JWT, RBAC/ABAC
+  * [[Desarrollo Profesional/Seguridad Aplicada/Páginas/03 - Criptografía y Secretos|03 — Criptografía y Secretos]] — hashing, cifrado, secretos, mTLS, supply chain
+
+### 🧪 Estrategia de Testing
+* [[Desarrollo Profesional/Estrategia de Testing/Estrategia de Testing|Índice de Estrategia de Testing]]
+  * [[Desarrollo Profesional/Estrategia de Testing/Páginas/01 - Pirámide y TDD|01 — Pirámide y TDD]] — pirámide de tests, TDD, dobles, buenos tests
+  * [[Desarrollo Profesional/Estrategia de Testing/Páginas/02 - Tipos de Test y Estrategia|02 — Tipos de Test y Estrategia]] — integración, e2e, contract, mutation, cobertura
+  * [[Desarrollo Profesional/Estrategia de Testing/Páginas/03 - TDD en Profundidad y Kata|03 — TDD en Profundidad y Kata]] — kata paso a paso, outside-in vs inside-out, legacy
 
 ---
 
