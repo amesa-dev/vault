@@ -2,52 +2,17 @@
 
 [[Desarrollo Profesional/Inicio Profesional|⬅️ Volver a Desarrollo Profesional]]
 
-> [!abstract] Kubernetes
-> Plataforma de código abierto para automatizar la implementación, el escalado y la administración de aplicaciones en contenedores.
+> [!abstract] Sobre esta sección
+> Kubernetes es el sistema de orquestación de contenedores estándar de la industria. Para un ingeniero que despliega en GCP con GKE, entender Kubernetes no es opcional — es el cómo del deployment, el scaling y la operación de sistemas en producción. Esta sección cubre la arquitectura, los workloads, el networking y la configuración.
 
 ---
 
-## 🏗️ Conceptos Clave
-- **Pod:** La unidad mínima de despliegue que comparte red y almacenamiento.
-- **Service:** Abstracción para exponer un conjunto de Pods como un servicio de red.
-- **Deployment:** Define el estado deseado para tus Pods y réplicas.
-- **Namespace:** División física/lógica del clúster para organizar recursos.
+## 📚 Páginas de esta sección
+
+1. [[Desarrollo Profesional/Kubernetes/Páginas/01 - Arquitectura Core|01 — Arquitectura Core]] — Control plane, worker nodes, etcd, API Server, kubelet
+2. [[Desarrollo Profesional/Kubernetes/Páginas/02 - Workloads|02 — Workloads]] — Pod, Deployment, StatefulSet, DaemonSet, Job/CronJob
+3. [[Desarrollo Profesional/Kubernetes/Páginas/03 - Networking|03 — Networking]] — Service (ClusterIP/NodePort/LB), Ingress, NetworkPolicy, DNS
+4. [[Desarrollo Profesional/Kubernetes/Páginas/04 - Configuración y Operación|04 — Configuración y Operación]] — ConfigMap, Secret, RBAC, HPA, recursos, kubectl esencial
 
 ---
-
-## ⚡ Comandos Esenciales de `kubectl`
-
-### Inspección de Recursos
-```bash
-# Listar recursos básicos
-kubectl get pods
-kubectl get services
-kubectl get deployments -n <namespace>
-
-# Obtener información detallada de un recurso
-kubectl describe pod <nombre-pod>
-```
-
-### Depuración y Logs
-```bash
-# Ver los logs de un contenedor
-kubectl logs <nombre-pod>
-
-# Seguir los logs en tiempo real
-kubectl logs -f <nombre-pod> -c <nombre-contenedor>
-
-# Entrar a la consola interactiva de un Pod
-kubectl exec -it <nombre-pod> -- /bin/sh
-```
-
-### Aplicar Configuraciones
-```bash
-# Crear o actualizar recursos definidos en un archivo YAML
-kubectl apply -f manifest.yaml
-
-# Eliminar recursos definidos en un YAML
-kubectl delete -f manifest.yaml
-```
-
----
-`#kubernetes` `#k8s` `#devops` `#apuntes`
+`#kubernetes` `#k8s` `#devops` `#indice`

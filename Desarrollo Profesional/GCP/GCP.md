@@ -1,40 +1,18 @@
-# ☁️ GCP (Google Cloud Platform)
+# ☁️ Google Cloud Platform (GCP)
 
 [[Desarrollo Profesional/Inicio Profesional|⬅️ Volver a Desarrollo Profesional]]
 
-> [!abstract] Google Cloud Platform (GCP)
-> Plataforma de servicios en la nube de Google que ofrece computación, almacenamiento, análisis de datos y aprendizaje automático.
+> [!abstract] Sobre esta sección
+> GCP es la nube de Google. Para un ingeniero de backend que trabaja con Python, Kubernetes y servicios gestionados, es la plataforma que define cómo se despliega, escala y observa el software en producción. Esta sección cubre desde los fundamentos de compute y storage hasta networking, IAM y las herramientas de observabilidad nativas.
 
 ---
 
-## 🛠️ Servicios Principales
+## 📚 Páginas de esta sección
 
-### 1. Cómputo (Compute)
-- **Compute Engine:** Máquinas virtuales administradas (IaaS).
-- **Google Kubernetes Engine (GKE):** Orquestación y ejecución de contenedores administrados por Google.
-- **Cloud Run:** Plataforma serverless para ejecutar contenedores HTTP sin preocuparse por la infraestructura.
-- **Cloud Functions:** Funciones serverless basadas en eventos.
-
-### 2. Almacenamiento (Storage)
-- **Cloud Storage (GCS):** Almacenamiento de objetos altamente disponible e ilimitado (similar a AWS S3).
-- **Cloud SQL:** Motores relacionales administrados (PostgreSQL, MySQL, SQL Server).
-- **Cloud Spanner:** Base de datos relacional de escalabilidad horizontal global.
-- **Firestore:** Base de datos NoSQL basada en documentos.
-
-### 3. Redes y Seguridad
-- **VPC (Virtual Private Cloud):** Red privada virtual para tus recursos en la nube.
-- **IAM (Identity and Access Management):** Gestión de accesos, políticas y cuentas de servicio.
+1. [[Desarrollo Profesional/GCP/Páginas/01 - Compute|01 — Compute]] — GCE, GKE, Cloud Run, Cloud Functions, cuándo usar cada uno
+2. [[Desarrollo Profesional/GCP/Páginas/02 - Storage y Bases de Datos|02 — Storage y Bases de Datos]] — GCS, Cloud SQL, Spanner, Firestore, Bigtable
+3. [[Desarrollo Profesional/GCP/Páginas/03 - Networking e IAM|03 — Networking e IAM]] — VPC, Cloud Load Balancing, Cloud DNS, IAM, Service Accounts
+4. [[Desarrollo Profesional/GCP/Páginas/04 - Observabilidad|04 — Observabilidad]] — Cloud Logging, Cloud Monitoring, Cloud Trace, Alertas
 
 ---
-
-## ⚡ Comandos Útiles (`gcloud CLI`)
-
-| Comando | Descripción |
-| --- | --- |
-| `gcloud auth login` | Autenticarse en GCP |
-| `gcloud config set project [PROJECT_ID]` | Seleccionar un proyecto de trabajo |
-| `gcloud compute instances list` | Listar máquinas virtuales |
-| `gcloud container clusters get-credentials [CLUSTER]` | Configurar acceso local a un clúster de GKE |
-
----
-`#gcp` `#cloud` `#google` `#apuntes`
+`#gcp` `#cloud` `#google` `#indice`

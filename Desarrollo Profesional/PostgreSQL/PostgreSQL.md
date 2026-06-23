@@ -2,57 +2,17 @@
 
 [[Desarrollo Profesional/Inicio Profesional|⬅️ Volver a Desarrollo Profesional]]
 
-> [!abstract] PostgreSQL
-> PostgreSQL es un sistema de gestión de bases de datos relacionales de código abierto, potente y altamente extensible, que soporta tanto consultas SQL (relacionales) como JSON (no relacionales).
+> [!abstract] Sobre esta sección
+> PostgreSQL es la base de datos relacional más avanzada del open source. Va mucho más allá del SQL básico: tipos personalizados, JSON nativo, full-text search, extensiones como PostGIS y pgvector, y un motor de transacciones basado en MVCC que le permite escalar a miles de conexiones concurrentes sin bloqueos innecesarios.
 
 ---
 
-## 🔑 Consultas Comunes y Sintaxis
+## 📚 Páginas de esta sección
 
-### 1. Creación de Tablas
-```sql
-CREATE TABLE usuarios (
-    id SERIAL PRIMARY KEY,
-    nombre VARCHAR(100) NOT NULL,
-    email VARCHAR(150) UNIQUE NOT NULL,
-    creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-```
-
-### 2. Tipos de JOINs
-- **INNER JOIN:** Devuelve filas cuando hay una coincidencia en ambas tablas.
-- **LEFT JOIN (o LEFT OUTER JOIN):** Devuelve todas las filas de la tabla de la izquierda, y las filas coincidentes de la derecha.
-
-```sql
-SELECT u.nombre, p.nombre_proyecto
-FROM usuarios u
-LEFT JOIN proyectos p ON u.id = p.usuario_id;
-```
+1. [[Desarrollo Profesional/PostgreSQL/Páginas/01 - Fundamentos|01 — Fundamentos]] — Tipos de datos, DDL, DML, JOINs, agregaciones, CTEs
+2. [[Desarrollo Profesional/PostgreSQL/Páginas/02 - Indexación y Performance|02 — Indexación y Performance]] — B-Tree, GIN, GiST, EXPLAIN ANALYZE, query optimization
+3. [[Desarrollo Profesional/PostgreSQL/Páginas/03 - Transacciones y MVCC|03 — Transacciones y MVCC]] — ACID, niveles de aislamiento, MVCC, vacuuming, deadlocks
+4. [[Desarrollo Profesional/PostgreSQL/Páginas/04 - Funciones Avanzadas|04 — Funciones Avanzadas]] — JSON/JSONB, window functions, full-text search, particionado, extensiones
 
 ---
-
-## ⚡ Índices y Rendimiento
-Los índices se utilizan para acelerar la búsqueda de datos.
-
-```sql
--- Crear un índice básico
-CREATE INDEX idx_usuarios_email ON usuarios(email);
-
--- Crear un índice compuesto
-CREATE INDEX idx_usuarios_nombre_creado ON usuarios(nombre, creado_en);
-```
-
----
-
-## 🛠️ Comandos Útiles de la Consola (`psql`)
-
-| Comando | Descripción |
-| --- | --- |
-| `\l` | Listar todas las bases de datos |
-| `\c nombre_bd` | Conectarse a una base de datos |
-| `\dt` | Listar todas las tablas de la base de datos actual |
-| `\d nombre_tabla` | Describir la estructura de una tabla |
-| `\q` | Salir de `psql` |
-
----
-`#postgresql` `#sql` `#database` `#apuntes`
+`#postgresql` `#sql` `#database` `#indice`

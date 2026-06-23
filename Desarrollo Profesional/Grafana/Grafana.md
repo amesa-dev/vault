@@ -2,31 +2,15 @@
 
 [[Desarrollo Profesional/Inicio Profesional|⬅️ Volver a Desarrollo Profesional]]
 
-> [!abstract] Grafana
-> Herramienta de visualización de datos, métricas y análisis de código abierto que permite crear paneles (dashboards) interactivos a partir de múltiples fuentes de datos.
+> [!abstract] Sobre esta sección
+> Grafana es la herramienta de visualización estándar en el ecosistema de observabilidad moderno. Se conecta a Prometheus para métricas, a Loki para logs y a Tempo para trazas — el stack LGTM de Grafana Labs. Esta sección cubre los dashboards, el lenguaje de consultas y las alertas.
 
 ---
 
-## 🔑 Características Principales
+## 📚 Páginas de esta sección
 
-### 1. Dashboards Interactivos
-Visualizaciones ricas basadas en paneles de gráficos, tablas, mapas de calor, etc. Soporta variables dinámicas para filtrar datos en tiempo real.
-
-### 2. Fuentes de Datos (Data Sources)
-Soporte nativo para una gran variedad de fuentes de datos:
-- **Time series:** Prometheus, InfluxDB, Graphite.
-- **Bases de datos:** PostgreSQL, MySQL, Elasticsearch.
-- **Cloud Providers:** CloudWatch (AWS), Stackdriver/Google Cloud Monitoring (GCP).
-
-### 3. Alertas (Grafana Alerting)
-Permite configurar reglas de alerta basadas en las consultas visualizadas y enviar notificaciones a canales como Slack, Discord, Email o PagerDuty.
+1. [[Desarrollo Profesional/Grafana/Páginas/01 - Dashboards|01 — Dashboards y Paneles]] — Paneles, variables, time range, anotaciones, provisioning
+2. [[Desarrollo Profesional/Grafana/Páginas/02 - Alertas y Data Sources|02 — Alertas y Data Sources]] — Grafana Alerting, contact points, notification policies, data sources
 
 ---
-
-## ⚡ Conceptos de Visualización
-- **Panels:** Cada gráfico o visualización individual dentro de un dashboard.
-- **Variables:** Parámetros dinámicos definidos en la parte superior que actualizan todos los paneles del dashboard.
-- **Provisioning:** Permite definir dashboards y fuentes de datos en archivos YAML para automatizar su despliegue.
-
----
-`#grafana` `#visualizacion` `#monitoreo` `#apuntes`
+`#grafana` `#visualizacion` `#monitoreo` `#indice`

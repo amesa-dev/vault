@@ -2,42 +2,15 @@
 
 [[Desarrollo Profesional/Inicio Profesional|⬅️ Volver a Desarrollo Profesional]]
 
-> [!abstract] Kibana
-> Interfaz de usuario gráfica para explorar, visualizar y administrar datos indexados en Elasticsearch, que forma parte del conocido stack Elastic (ELK).
+> [!abstract] Sobre esta sección
+> Kibana es la interfaz de visualización del stack Elastic (ELK: Elasticsearch + Logstash + Kibana). Es la herramienta de análisis de logs más extendida en entornos empresariales. Conocer KQL y saber construir dashboards de logs es una habilidad esencial para cualquier ingeniero de backend.
 
 ---
 
-## 🔑 Módulos Principales
+## 📚 Páginas de esta sección
 
-### 1. Discover (Descubrir)
-- Permite buscar y filtrar documentos de registro indexados en tiempo real.
-- Utiliza **KQL (Kibana Query Language)** o consultas Lucene para filtrar.
-
-### 2. Visualize Library (Visualizar)
-- Creación de gráficos individuales (barras, líneas, circulares, coordenadas geográficas, TSVB).
-- **Lens:** Herramienta interactiva de arrastrar y soltar para crear visualizaciones rápidas.
-
-### 3. Dashboards (Paneles)
-- Lienzos interactivos que reúnen múltiples visualizaciones para dar una perspectiva unificada del estado de la infraestructura o la aplicación.
+1. [[Desarrollo Profesional/Kibana/Páginas/01 - Discover y KQL|01 — Discover y KQL]] — Exploración de logs, KQL, filtros, Lens
+2. [[Desarrollo Profesional/Kibana/Páginas/02 - Dashboards y APM|02 — Dashboards y APM]] — Dashboards de logs, APM, alertas
 
 ---
-
-## ⚡ Consultas con KQL (Kibana Query Language)
-
-### Sintaxis Básica:
-```kql
-# Búsqueda exacta
-response: 200
-
-# Búsqueda con comodín (wildcard)
-machine.os: win*
-
-# Operadores lógicos
-response: 200 AND (status: "error" OR status: "warning")
-
-# Rangos numéricos
-bytes > 1000 AND bytes <= 5000
-```
-
----
-`#kibana` `#elk` `#logs` `#visualizacion` `#apuntes`
+`#kibana` `#elk` `#logs` `#indice`

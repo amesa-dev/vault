@@ -1,65 +1,17 @@
-# 📐 Arquitectura Hexagonal (Puertos y Adaptadores)
+# 📐 Arquitectura Hexagonal
 
 [[Desarrollo Profesional/Inicio Profesional|⬅️ Volver a Desarrollo Profesional]]
 
-> [!abstract] Arquitectura Hexagonal
-> Creada por Alistair Cockburn, es un patrón de arquitectura que busca desacoplar la lógica de negocio central (el Dominio) de los agentes externos (bases de datos, frameworks web, APIs externas, interfaces de usuario).
+> [!abstract] Sobre esta sección
+> La arquitectura hexagonal (Ports and Adapters), propuesta por Alistair Cockburn en 2005, es el patrón arquitectónico que mejor encapsula la separación entre el núcleo del negocio y las tecnologías de infraestructura. Es la base sobre la que DDD construye su modelo táctico. Todos los ejemplos están en Python.
 
 ---
 
-## 🏗️ Capas de la Arquitectura
+## 📚 Páginas de esta sección
 
-```mermaid
-graph TD
-    subgraph "Infraestructura (Adaptadores de Entrada)"
-        HTTP["Controlador HTTP (Express/FastAPI)"]
-        CLI["Consola CLI"]
-    end
-
-    subgraph "Aplicación (Casos de Uso)"
-        UC["Caso de Uso (CrearUsuario)"]
-    end
-
-    subgraph "Dominio (Reglas de Negocio)"
-        Dom["Entidades, Value Objects, Servicios"]
-        PortIn["Puerto de Entrada (Caso de Uso Interfaz)"]
-        PortOut["Puerto de Salida (Interfaz de Repositorio)"]
-    end
-
-    subgraph "Infraestructura (Adaptadores de Salida)"
-        DB["Adaptador de DB (Postgres/TypeORM)"]
-        Email["Servicio de Email (Sendgrid)"]
-    end
-
-    HTTP --> PortIn
-    CLI --> PortIn
-    PortIn --> UC
-    UC --> Dom
-    UC --> PortOut
-    PortOut --> DB
-    PortOut --> Email
-```
-
-### 1. Dominio (Domain)
-- Contiene los modelos del negocio (Entidades, Objetos de Valor) y reglas de negocio puras.
-- No tiene dependencias de ningún framework o biblioteca externa.
-- Define los **Puertos** (interfaces) para interactuar con el exterior.
-
-### 2. Aplicación (Application)
-- Orquesta los **Casos de Uso** del sistema (acciones del usuario como "Registrar un usuario").
-- Implementa los puertos de entrada y llama a los puertos de salida.
-
-### 3. Infraestructura (Infrastructure)
-- Contiene la implementación técnica concreta de las interfaces (los **Adaptadores**).
-- *Adaptadores de Entrada (Primary):* Controladores REST, comandos CLI, listeners de eventos.
-- *Adaptadores de Salida (Secondary):* Acceso a base de datos (Postgres, Mongo), clientes de correo, APIs externas.
+1. [[Desarrollo Profesional/Arquitectura Hexagonal/Páginas/01 - Concepto|01 — El Concepto]] — La idea central, el hexágono, motivación y por qué importa
+2. [[Desarrollo Profesional/Arquitectura Hexagonal/Páginas/02 - Puertos y Adaptadores|02 — Puertos y Adaptadores]] — Primary/Secondary ports, adaptadores concretos, inversión de dependencias
+3. [[Desarrollo Profesional/Arquitectura Hexagonal/Páginas/03 - Implementación en Python|03 — Implementación Completa en Python]] — Ejemplo real: API de pedidos con FastAPI + PostgreSQL
 
 ---
-
-## 🔌 Puertos vs Adaptadores
-
-- **Puerto (Port):** Es la definición de la interfaz o contrato (ej. `UserRepository`). Pertenece al Dominio/Aplicación.
-- **Adaptador (Adapter):** Es la implementación de dicho puerto para una tecnología específica (ej. `PostgresUserRepository`). Pertenece a la Infraestructura.
-
----
-`#arquitectura` `#hexagonal` `#patrones` `#apuntes`
+`#hexagonal` `#arquitectura` `#ports-adapters` `#indice`

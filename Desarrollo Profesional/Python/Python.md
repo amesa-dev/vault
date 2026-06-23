@@ -1,83 +1,50 @@
-# 🐍 Python
+# 🐍 Python — Curso Completo
 
 [[Desarrollo Profesional/Inicio Profesional|⬅️ Volver a Desarrollo Profesional]]
 
-> [!abstract] Python
-> Python es un lenguaje de programación de alto nivel, interpretado, con una filosofía que enfatiza la legibilidad del código. Es ampliamente utilizado en desarrollo web, scripting, automatización y ciencia de datos.
+> [!abstract] Sobre este curso
+> Curso de Python de principiante a avanzado. Cada página es autocontenida y está enlazada con las anteriores. El objetivo es que puedas usarlo como referencia rápida o como ruta de aprendizaje secuencial.
 
 ---
 
-## 🔑 Estructuras de Datos Avanzadas
+## 📚 Índice del Curso
 
-### 1. List Comprehensions (Comprensión de Listas)
-Una forma concisa de crear listas.
-```python
-# Crear una lista de cuadrados para números pares
-cuadrados = [x**2 for x in range(10) if x % 2 == 0]
-# Resultado: [0, 4, 16, 36, 64]
-```
+### Fundamentos
+1. [[Desarrollo Profesional/Python/00 - Introducción y Setup|00 - Introducción y Setup]] — Entorno virtual, pip, pyproject.toml
+2. [[Desarrollo Profesional/Python/01 - Tipos Primitivos y Variables|01 - Tipos Primitivos y Variables]] — int, float, str, bool, None, conversiones
+3. [[Desarrollo Profesional/Python/02 - Estructuras de Datos|02 - Estructuras de Datos]] — list, dict, tuple, set, deque, Counter
+4. [[Desarrollo Profesional/Python/03 - Control de Flujo|03 - Control de Flujo]] — if/for/while, match-case, comprehensions
 
-### 2. Diccionarios y Sets Comprehensions
-```python
-# Comprensión de diccionario
-mi_dict = {x: x**2 for x in range(5)}
-# Resultado: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
-```
+### Intermedio
+5. [[Desarrollo Profesional/Python/04 - Funciones|04 - Funciones]] — args, *args, **kwargs, closures, funciones de primera clase
+6. [[Desarrollo Profesional/Python/05 - POO|05 - Programación Orientada a Objetos]] — Clases, herencia, MRO, dunder methods, dataclasses
+7. [[Desarrollo Profesional/Python/06 - Módulos y Paquetes|06 - Módulos y Paquetes]] — Sistema de imports, __init__, pyproject.toml
+8. [[Desarrollo Profesional/Python/07 - Manejo de Errores|07 - Manejo de Errores]] — try/except/finally, context managers, excepciones custom
+
+### Avanzado
+9. [[Desarrollo Profesional/Python/08 - Iteradores y Generadores|08 - Iteradores y Generadores]] — iter/next, yield, itertools, generator expressions
+10. [[Desarrollo Profesional/Python/09 - Decoradores|09 - Decoradores]] — Decoradores de función y clase, functools.wraps, stacking
+11. [[Desarrollo Profesional/Python/10 - Tipado Estático|10 - Tipado Estático]] — type hints, mypy, Protocol, TypeVar, Generic, TypedDict
+12. [[Desarrollo Profesional/Python/11 - Concurrencia y Asyncio|11 - Concurrencia y Asyncio]] — GIL, threading, multiprocessing, async/await
+13. [[Desarrollo Profesional/Python/12 - Testing con Pytest|12 - Testing con Pytest]] — fixtures, parametrize, monkeypatch, coverage
 
 ---
 
-## 🎨 Programación Orientada a Objetos (POO)
-Sintaxis básica de clases, constructor y métodos.
+## 🗺️ Ruta Recomendada
 
-```python
-class Personaje:
-    def __init__(self, nombre: str, nivel: int = 1):
-        self.nombre = nombre
-        self.nivel = nivel
-
-    def subir_nivel(self):
-        self.nivel += 1
-        print(f"¡{self.nombre} ha subido al nivel {self.nivel}!")
-
-# Instanciación
-heroe = Personaje("Aventurero")
-heroe.subir_nivel()
+```
+Principiante → 00 → 01 → 02 → 03 → 04
+Intermedio   → 05 → 06 → 07
+Avanzado     → 08 → 09 → 10 → 11 → 12
 ```
 
 ---
 
-## ⚡ Decoradores
-Los decoradores permiten modificar o extender el comportamiento de una función o método sin cambiar directamente su código.
-
-```python
-def mi_decorador(func):
-    def envoltura(*args, **kwargs):
-        print("Antes de ejecutar la función...")
-        resultado = func(*args, **kwargs)
-        print("Después de ejecutar la función.")
-        return resultado
-    return envoltura
-
-@mi_decorador
-def saludar(nombre):
-    print(f"Hola, {nombre}!")
-
-saludar("Andrés")
-```
+## 🔗 Recursos Generales
+- 📖 *Fluent Python* — Luciano Ramalho (el libro avanzado de referencia)
+- 📖 *Python Cookbook* — David Beazley & Brian Jones
+- 🌐 docs.python.org — documentación oficial
+- 🌐 realpython.com — tutoriales con profundidad técnica real
 
 ---
-
-## 🏷️ Tipado de Datos (Type Hinting)
-Python es dinámico, pero soporta anotaciones de tipo estático para herramientas de análisis como `mypy`.
-
-```python
-from typing import List, Dict, Optional
-
-def procesar_usuarios(usuarios: List[str]) -> Optional[Dict[str, int]]:
-    if not usuarios:
-        return None
-    return {usuario: len(usuario) for usuario in usuarios}
-```
-
----
-`#python` `#programacion` `#backend` `#apuntes`
+`#python` `#programacion` `#backend` `#curso`

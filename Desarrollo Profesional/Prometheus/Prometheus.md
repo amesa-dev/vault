@@ -2,46 +2,15 @@
 
 [[Desarrollo Profesional/Inicio Profesional|⬅️ Volver a Desarrollo Profesional]]
 
-> [!abstract] Prometheus
-> Sistema de monitoreo y alerta de código abierto basado en métricas de series temporales. Utiliza un modelo de recopilación mediante consultas HTTP (pull model) a endpoints expuestos por los servicios.
+> [!abstract] Sobre esta sección
+> Prometheus es el estándar de facto para monitorización de métricas en sistemas cloud-native y Kubernetes. Su modelo pull, los cuatro tipos de métricas y el lenguaje de consultas PromQL son conceptos que todo ingeniero de backend que trabaja con K8s necesita dominar.
 
 ---
 
-## 🏗️ Tipos de Métricas en Prometheus
+## 📚 Páginas de esta sección
 
-1. **Counter (Contador):**
-   - Valor monótonamente creciente (solo sube o vuelve a cero al reiniciarse).
-   - *Ejemplo:* Número total de peticiones HTTP completadas.
-2. **Gauge (Indicador):**
-   - Valor que puede subir y bajar de forma arbitraria.
-   - *Ejemplo:* Uso de memoria actual o temperatura de CPU.
-3. **Histogram (Histograma):**
-   - Mide la duración del evento o tamaño del mensaje dividiéndolo en rangos configurables (buckets).
-   - *Ejemplo:* Latencia de solicitudes.
-4. **Summary (Resumen):**
-   - Similar al histograma, pero calcula cuantiles configurables sobre una ventana de tiempo deslizante.
+1. [[Desarrollo Profesional/Prometheus/Páginas/01 - Métricas y PromQL|01 — Métricas y PromQL]] — Tipos de métricas, instrumentación en Python, PromQL esencial
+2. [[Desarrollo Profesional/Prometheus/Páginas/02 - Configuración y Alertas|02 — Configuración y Alertas]] — scrape_configs, Alertmanager, reglas de alerta
 
 ---
-
-## ⚡ Sintaxis Básica de PromQL (Prometheus Query Language)
-
-### 1. Consultas Simples
-```promql
-# Obtener el valor actual de la métrica
-http_requests_total
-
-# Filtrar por etiquetas (labels)
-http_requests_total{status="200", method="GET"}
-```
-
-### 2. Rangos y Funciones de Ratio
-```promql
-# Tasa de peticiones por segundo en los últimos 5 minutos
-rate(http_requests_total[5m])
-
-# Latencia media de peticiones
-sum(rate(http_request_duration_seconds_sum[5m])) / sum(rate(http_request_duration_seconds_count[5m]))
-```
-
----
-`#prometheus` `#monitoreo` `#devops` `#apuntes`
+`#prometheus` `#monitoreo` `#devops` `#indice`
