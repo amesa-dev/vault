@@ -11,31 +11,33 @@
 
 ### 🐍 Python — Curso Completo
 * [[Desarrollo Profesional/Python/Python|Índice del curso de Python]]
-  * 01 — Fundamentos y tipos de datos
-  * 02 — Control de flujo y funciones
-  * 03 — Estructuras de datos
-  * 04 — Programación Orientada a Objetos
-  * 05 — Módulos, paquetes y entorno virtual
-  * 06 — Manejo de errores y context managers
-  * 07 — Iteradores, generadores y comprensiones
-  * 08 — Metaclases y descriptores
-  * [[Desarrollo Profesional/Python/Páginas/09 - Decoradores|09 — Decoradores]]
-  * [[Desarrollo Profesional/Python/Páginas/10 - Tipado Estático|10 — Tipado Estático]]
-  * [[Desarrollo Profesional/Python/Páginas/11 - Concurrencia y Asyncio|11 — Concurrencia y Asyncio]]
-  * [[Desarrollo Profesional/Python/Páginas/12 - Testing con Pytest|12 — Testing con Pytest]]
+  * [[Desarrollo Profesional/Python/00 - Introducción y Setup|00 — Introducción y Setup]]
+  * [[Desarrollo Profesional/Python/01 - Tipos Primitivos y Variables|01 — Tipos Primitivos y Variables]]
+  * [[Desarrollo Profesional/Python/02 - Estructuras de Datos|02 — Estructuras de Datos]]
+  * [[Desarrollo Profesional/Python/03 - Control de Flujo|03 — Control de Flujo]]
+  * [[Desarrollo Profesional/Python/04 - Funciones|04 — Funciones]]
+  * [[Desarrollo Profesional/Python/05 - POO|05 — Programación Orientada a Objetos]]
+  * [[Desarrollo Profesional/Python/06 - Módulos y Paquetes|06 — Módulos y Paquetes]]
+  * [[Desarrollo Profesional/Python/07 - Manejo de Errores|07 — Manejo de Errores]]
+  * [[Desarrollo Profesional/Python/08 - Iteradores y Generadores|08 — Iteradores y Generadores]]
+  * [[Desarrollo Profesional/Python/09 - Decoradores|09 — Decoradores]]
+  * [[Desarrollo Profesional/Python/10 - Tipado Estático|10 — Tipado Estático]]
+  * [[Desarrollo Profesional/Python/11 - Concurrencia y Asyncio|11 — Concurrencia y Asyncio]]
+  * [[Desarrollo Profesional/Python/12 - Testing con Pytest|12 — Testing con Pytest]]
 
 ### 📘 TypeScript — Curso Completo
 * [[Desarrollo Profesional/TypeScript/TypeScript|Índice del curso de TypeScript]]
-  * 01 — Tipos básicos y primitivos
-  * 02 — Interfaces y tipos
-  * 03 — Clases y herencia
-  * 04 — Genéricos
-  * 05 — Módulos y namespaces
-  * 06 — Utility Types
-  * 07 — Tipos condicionales e inferencia
-  * 08 — Decoradores
-  * [[Desarrollo Profesional/TypeScript/Páginas/09 - Patrones Avanzados|09 — Patrones Avanzados]]
-  * [[Desarrollo Profesional/TypeScript/Páginas/10 - Configuración y Tooling|10 — Configuración y Tooling]]
+  * [[Desarrollo Profesional/TypeScript/00 - Introducción y Setup|00 — Introducción y Setup]]
+  * [[Desarrollo Profesional/TypeScript/01 - Tipos Básicos|01 — Tipos Básicos]]
+  * [[Desarrollo Profesional/TypeScript/02 - Interfaces y Type Aliases|02 — Interfaces y Type Aliases]]
+  * [[Desarrollo Profesional/TypeScript/03 - Funciones|03 — Funciones]]
+  * [[Desarrollo Profesional/TypeScript/04 - Clases|04 — Clases]]
+  * [[Desarrollo Profesional/TypeScript/05 - Generics|05 — Generics]]
+  * [[Desarrollo Profesional/TypeScript/06 - Narrowing y Type Guards|06 — Narrowing y Type Guards]]
+  * [[Desarrollo Profesional/TypeScript/07 - Tipos Avanzados|07 — Tipos Avanzados]]
+  * [[Desarrollo Profesional/TypeScript/08 - Módulos y Declaraciones|08 — Módulos y Declaraciones]]
+  * [[Desarrollo Profesional/TypeScript/09 - Patrones Avanzados|09 — Patrones Avanzados]]
+  * [[Desarrollo Profesional/TypeScript/10 - Configuración y Tooling|10 — Configuración y Tooling]]
 
 ---
 
