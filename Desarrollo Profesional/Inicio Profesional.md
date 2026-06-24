@@ -39,6 +39,23 @@
   * [[Desarrollo Profesional/TypeScript/09 - Patrones Avanzados|09 — Patrones Avanzados]]
   * [[Desarrollo Profesional/TypeScript/10 - Configuración y Tooling|10 — Configuración y Tooling]]
 
+### ⚛️ React — Curso Completo
+* [[Desarrollo Profesional/React/React|Índice del curso de React]]
+  * [[Desarrollo Profesional/React/00 - Introducción y Setup|00 — Introducción y Setup]]
+  * [[Desarrollo Profesional/React/01 - Componentes y JSX|01 — Componentes y JSX]]
+  * [[Desarrollo Profesional/React/02 - Props y Composición|02 — Props y Composición]]
+  * [[Desarrollo Profesional/React/03 - Estado con useState|03 — Estado con useState]]
+  * [[Desarrollo Profesional/React/04 - Renderizado Condicional y Listas|04 — Renderizado Condicional y Listas]]
+  * [[Desarrollo Profesional/React/05 - Eventos y Formularios|05 — Eventos y Formularios]]
+  * [[Desarrollo Profesional/React/06 - useEffect y Efectos|06 — useEffect y Efectos]]
+  * [[Desarrollo Profesional/React/07 - Hooks Avanzados|07 — Hooks Avanzados]]
+  * [[Desarrollo Profesional/React/08 - Custom Hooks|08 — Custom Hooks]]
+  * [[Desarrollo Profesional/React/09 - Context y Estado Global|09 — Context y Estado Global]]
+  * [[Desarrollo Profesional/React/10 - Data Fetching|10 — Data Fetching]]
+  * [[Desarrollo Profesional/React/11 - React Router|11 — React Router]]
+  * [[Desarrollo Profesional/React/12 - Performance y Optimización|12 — Performance y Optimización]]
+  * [[Desarrollo Profesional/React/13 - Testing|13 — Testing]]
+
 ---
 
 ## 🗄️ Bases de Datos
@@ -175,6 +192,33 @@
   * [[Desarrollo Profesional/IA/Páginas/02 - Prompt Engineering|02 — Prompt Engineering]] — zero-shot, few-shot, CoT, structured output
   * [[Desarrollo Profesional/IA/Páginas/03 - RAG|03 — RAG]] — chunking, pgvector, ChromaDB, reranking
   * [[Desarrollo Profesional/IA/Páginas/04 - Agentes y MCP|04 — Agentes y MCP]] — tool use, loop de agente, Model Context Protocol
+
+### 🧱 Pydantic (enfocado en IA)
+* [[Desarrollo Profesional/Pydantic/Pydantic|Índice de Pydantic]]
+  * [[Desarrollo Profesional/Pydantic/Páginas/01 - Modelos como Esquema para LLMs|01 — Modelos como Esquema para LLMs]] — BaseModel, JSON Schema, Field, validadores
+  * [[Desarrollo Profesional/Pydantic/Páginas/02 - Salida Estructurada y Tool Calling|02 — Salida Estructurada y Tool Calling]] — Instructor, function calling, reintentos
+  * [[Desarrollo Profesional/Pydantic/Páginas/03 - PydanticAI y Agentes|03 — PydanticAI y Agentes]] — agentes tipados, tools, dependencias
+
+### 🦜 LangChain
+* [[Desarrollo Profesional/LangChain/LangChain|Índice de LangChain]]
+  * [[Desarrollo Profesional/LangChain/Páginas/01 - Fundamentos y LCEL|01 — Fundamentos y LCEL]] — prompts, modelos, parsers, el operador pipe
+  * [[Desarrollo Profesional/LangChain/Páginas/02 - RAG con LangChain|02 — RAG con LangChain]] — loaders, splitters, embeddings, retrievers
+  * [[Desarrollo Profesional/LangChain/Páginas/03 - Agentes y LangGraph|03 — Agentes y LangGraph]] — tools, bucle del agente, grafos de estado
+
+### 🎙️ LiveKit — Agentes de Voz
+* [[Desarrollo Profesional/LiveKit/LiveKit|Índice de LiveKit]]
+  * [[Desarrollo Profesional/LiveKit/Páginas/01 - Fundamentos de Tiempo Real|01 — Fundamentos de Tiempo Real]] — WebRTC, Rooms, Participants, Tracks, SFU
+  * [[Desarrollo Profesional/LiveKit/Páginas/02 - Agentes de Voz con IA|02 — Agentes de Voz con IA]] — pipeline STT-LLM-TTS, VAD, turn detection
+
+### 🐦 Pipecat — Alternativa a LiveKit
+* [[Desarrollo Profesional/Pipecat/Pipecat|Índice de Pipecat]]
+  * [[Desarrollo Profesional/Pipecat/Páginas/01 - Pipeline de Frames|01 — Pipeline de Frames]] — frames, processors, transports, flujo bidireccional
+  * [[Desarrollo Profesional/Pipecat/Páginas/02 - Bot de Voz y comparación con LiveKit|02 — Bot de Voz y comparación con LiveKit]] — bot completo y Pipecat vs LiveKit
+
+### 📊 Langfuse — Observabilidad de LLMs
+* [[Desarrollo Profesional/Langfuse/Langfuse|Índice de Langfuse]]
+  * [[Desarrollo Profesional/Langfuse/Páginas/01 - Tracing y Observabilidad|01 — Tracing y Observabilidad]] — traces, observations, `@observe`, integraciones
+  * [[Desarrollo Profesional/Langfuse/Páginas/02 - Evaluación, Prompts y Datasets|02 — Evaluación, Prompts y Datasets]] — scores, LLM-as-a-judge, prompt management, evals
 
 ---
 `#profesional` `#tecnologia` `#estudio` `#indice`
