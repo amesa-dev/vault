@@ -15,6 +15,10 @@ Marcos para pensar mejor, responder al fracaso y construir una base psicológica
 - [[Desarrollo Personal/Mentalidad/Growth Mindset|🌱 Growth Mindset]] — Mentalidad fija vs crecimiento; por qué el esfuerzo supera al talento
 - [[Desarrollo Personal/Mentalidad/Sesgos Cognitivos|🧠 Sesgos Cognitivos]] — Los 6 sesgos más influyentes y cómo mitigarlos
 - [[Desarrollo Personal/Mentalidad/Resiliencia|🪨 Resiliencia y Antifragilidad]] — Crecer gracias a la adversidad, no solo sobrevivir a ella
+- [[Desarrollo Personal/Mentalidad/Disonancia Cognitiva|🌀 Disonancia Cognitiva]] — Por qué racionalizamos en vez de cambiar, y cómo detectarlo
+- [[Desarrollo Personal/Mentalidad/Locus de Control|🎛️ Locus de Control]] — Interno vs externo; responsabilidad sin culpa
+- [[Desarrollo Personal/Mentalidad/Modelos Mentales|🧰 Modelos Mentales]] — La caja de herramientas de Munger para pensar mejor
+- [[Desarrollo Personal/Mentalidad/Primeros Principios|🧪 Primeros Principios]] — Razonar desde cero en lugar de por analogía
 
 ---
 
@@ -28,6 +32,10 @@ Sistemas y técnicas para trabajar con más profundidad y menos fricción.
 - [[Desarrollo Personal/Productividad/Zettelkasten|🗃️ Zettelkasten]] — Sistema de notas que piensa contigo; aplicación en Obsidian
 - [[Desarrollo Personal/Productividad/Hábitos Atómicos|⚛️ Hábitos Atómicos]] — El 1% diario, sistemas vs metas, las cuatro leyes del cambio
 - [[Desarrollo Personal/Productividad/Aprender a Aprender|🧠 Aprender a Aprender]] — Recuerdo activo, repetición espaciada, técnica Feynman
+- [[Desarrollo Personal/Productividad/Priorización|🎯 Priorización]] — Matriz de Eisenhower, Eat the Frog y la tarea más importante
+- [[Desarrollo Personal/Productividad/Time Blocking|📅 Time Blocking]] — Darle a cada tarea una cita en el calendario
+- [[Desarrollo Personal/Productividad/Ley de Parkinson y Pareto|⏳ Ley de Parkinson y Pareto]] — Plazos cortos y el 80/20 que más rinde
+- [[Desarrollo Personal/Productividad/Gestión de la Energía|🔋 Gestión de la Energía]] — Gestiona energía, no tiempo: ritmos y recuperación
 
 ---
 
@@ -38,6 +46,10 @@ Fundamentos para tomar control del dinero con criterio y simplicidad.
 - [[Desarrollo Personal/Finanzas/Regla 50-30-20|💰 Regla 50/30/20]] — El presupuesto más simple que funciona
 - [[Desarrollo Personal/Finanzas/Interés Compuesto|📈 Interés Compuesto]] — La matemática del tiempo y el dinero
 - [[Desarrollo Personal/Finanzas/Inversión Indexada|📊 Inversión Indexada]] — Ganar sin intentar ganar; fondos índice y DCA
+- [[Desarrollo Personal/Finanzas/Fondo de Emergencia|🛟 Fondo de Emergencia]] — El colchón que va antes de invertir: cuánto y dónde
+- [[Desarrollo Personal/Finanzas/Independencia Financiera (FIRE)|🔥 Independencia Financiera (FIRE)]] — Tu número, la regla del 4% y sus variantes
+- [[Desarrollo Personal/Finanzas/Psicología del Dinero|🧠 Psicología del Dinero]] — El comportamiento importa más que la teoría
+- [[Desarrollo Personal/Finanzas/Deuda Buena vs Mala|⚖️ Deuda Buena vs Mala]] — Apalancamiento, interés y cómo salir de la deuda cara
 
 ---
 
@@ -49,6 +61,10 @@ El sustrato físico sobre el que descansa todo lo demás.
 - [[Desarrollo Personal/Salud y Bienestar/Ejercicio y Cognición|🏃 Ejercicio y Cognición]] — BDNF, Zona 2 y el efecto del ejercicio en el cerebro
 - [[Desarrollo Personal/Salud y Bienestar/Meditación|🧘 Meditación]] — Entrenamiento de la atención; tipos, evidencia y cómo empezar
 - [[Desarrollo Personal/Salud y Bienestar/Nutrición|🥗 Nutrición]] — Macronutrientes, balance energético, comida real vs ultraprocesados
+- [[Desarrollo Personal/Salud y Bienestar/Ayuno Intermitente|⏱️ Ayuno Intermitente]] — Qué dice la evidencia sin exageraciones, y para quién no
+- [[Desarrollo Personal/Salud y Bienestar/Hidratación y Cafeína|☕ Hidratación y Cafeína]] — Cuánta agua y el timing de la cafeína que cuida tu sueño
+- [[Desarrollo Personal/Salud y Bienestar/Respiración|🫁 Respiración]] — El mando del sistema nervioso: calmar, equilibrar, activar
+- [[Desarrollo Personal/Salud y Bienestar/Postura y Salud de Oficina|🪑 Postura y Salud de Oficina]] — Ergonomía, movimiento y descanso visual
 
 ---
 
@@ -59,6 +75,42 @@ Habilidades para conectar, entender y resolver conflictos.
 - [[Desarrollo Personal/Relaciones/Escucha Activa|👂 Escucha Activa]] — Los niveles de escucha y las técnicas que cambian conversaciones
 - [[Desarrollo Personal/Relaciones/Comunicación No Violenta|🕊️ Comunicación No Violenta]] — El modelo CNV de Rosenberg: observación, sentimiento, necesidad, petición
 - [[Desarrollo Personal/Relaciones/Negociación|🤝 Negociación]] — Posiciones vs intereses, método Harvard, BATNA, empatía táctica
+- [[Desarrollo Personal/Relaciones/Lenguajes del Amor|💞 Lenguajes del Amor]] — Por qué das cariño y no llega; los cinco idiomas
+- [[Desarrollo Personal/Relaciones/Establecer Límites|🚧 Establecer Límites]] — Decir que no con respeto y sin culpa
+- [[Desarrollo Personal/Relaciones/Dar y Recibir Feedback|🔄 Dar y Recibir Feedback]] — El modelo SBI y cómo recibir críticas sin bloquearte
+- [[Desarrollo Personal/Relaciones/Construir Confianza|🤝 Construir Confianza]] — La ecuación de la confianza y cómo repararla
+
+---
+
+## 🎯 Propósito y Sentido
+
+Brújulas para decidir hacia dónde apuntar tu vida y por qué.
+
+- [[Desarrollo Personal/Propósito y Sentido/Ikigai|🎯 Ikigai]] — La razón de ser: el diagrama occidental y el concepto japonés real
+- [[Desarrollo Personal/Propósito y Sentido/Diseñar tu Vida|🧭 Diseñar tu Vida]] — Design thinking aplicado: prototipar en vez de planificar
+- [[Desarrollo Personal/Propósito y Sentido/Valores Personales|🧱 Valores Personales]] — Tu brújula de decisión: descubrirlos y vivir alineado
+- [[Desarrollo Personal/Propósito y Sentido/Memento Mori|⏳ Memento Mori]] — La finitud como herramienta para vivir mejor
+
+---
+
+## 🎨 Creatividad y Aprendizaje
+
+Cómo aprender mejor, gestionar el conocimiento y generar ideas.
+
+- [[Desarrollo Personal/Creatividad y Aprendizaje/Building a Second Brain|🧠 Building a Second Brain]] — Un sistema de notas que piensa contigo (CODE y PARA)
+- [[Desarrollo Personal/Creatividad y Aprendizaje/Pensamiento Lateral|💡 Pensamiento Lateral]] — Romper patrones y generar ideas distintas
+- [[Desarrollo Personal/Creatividad y Aprendizaje/Práctica Deliberada|🎯 Práctica Deliberada]] — Por qué no todas las horas valen igual; cómo se construye la maestría
+
+---
+
+## 🧘 Gestión Emocional
+
+Entender y manejar las emociones para que te informen, no te dominen.
+
+- [[Desarrollo Personal/Gestión Emocional/Inteligencia Emocional|🧠 Inteligencia Emocional]] — Los cuatro componentes de Goleman y el espacio entre estímulo y respuesta
+- [[Desarrollo Personal/Gestión Emocional/Regulación Emocional|🌊 Regulación Emocional]] — Surfear la ola: reappraisal vs supresión y la ventana de tolerancia
+- [[Desarrollo Personal/Gestión Emocional/Gestión del Estrés y Burnout|🔥 Gestión del Estrés y Burnout]] — Estrés sano vs tóxico y cómo cerrar el ciclo
+- [[Desarrollo Personal/Gestión Emocional/Autocompasión|🤲 Autocompasión]] — Tratarte como a un amigo: mejor motivador que el látigo interior
 
 ---
 
