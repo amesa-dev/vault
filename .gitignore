@@ -7,3 +7,9 @@
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# IDE
+.idea/
+
+# Scratch / scripts de verificación local
+verify.py

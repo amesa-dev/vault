@@ -26,6 +26,7 @@ Centro de aprendizaje, proyectos, desarrollo de carrera y documentación técnic
 ---
 
 ## ⚡ Enlaces Rápidos
+- [[Progreso de Lectura|✅ Progreso de Lectura]] — marca con un tick las secciones que ya has leído
 - [[Bandeja de Ideas|📥 Bandeja de Ideas]] — captura rápida de temas para desarrollar en sesiones
 - [[Desarrollo Profesional/Diseño de Sistemas/Plantilla de Entrevista|📋 Plantilla de Diseño en Entrevista]]
 - `#home` `#index`
