@@ -146,6 +146,18 @@
   * [[Desarrollo Profesional/Diseño de APIs/Páginas/01 - REST y Diseño de Recursos|01 — REST y Diseño de Recursos]] — madurez de Richardson, versionado, paginación, errores
   * [[Desarrollo Profesional/Diseño de APIs/Páginas/02 - gRPC GraphQL y Alternativas|02 — gRPC, GraphQL y Alternativas]] — cuándo cada estilo, contratos, OpenAPI
 
+### 🔗 RESTful — APIs según los Principios REST
+* [[Desarrollo Profesional/RESTful/RESTful|Índice de RESTful]]
+  * [[Desarrollo Profesional/RESTful/Páginas/01 - Principios y Restricciones|01 — Principios y Restricciones]] — Fielding, las 6 restricciones, statelessness
+  * [[Desarrollo Profesional/RESTful/Páginas/02 - Diseño de Recursos y Operaciones|02 — Diseño de Recursos y Operaciones]] — recursos, verbos, status, idempotencia, negociación
+  * [[Desarrollo Profesional/RESTful/Páginas/03 - HATEOAS y Madurez REST|03 — HATEOAS y Madurez REST]] — hipermedia, modelo de Richardson, versionado y evolución
+
+### 🔀 CQRS
+* [[Desarrollo Profesional/CQRS/CQRS|Índice de CQRS]]
+  * [[Desarrollo Profesional/CQRS/Páginas/01 - Concepto y Motivación|01 — Concepto y Motivación]] — CQS vs CQRS, commands vs queries, niveles de adopción
+  * [[Desarrollo Profesional/CQRS/Páginas/02 - Implementación en Python|02 — Implementación en Python]] — buses, handlers, mediator y middleware
+  * [[Desarrollo Profesional/CQRS/Páginas/03 - Read Models Eventos y Escalado|03 — Read Models, Eventos y Escalado]] — proyecciones, consistencia eventual, Event Sourcing
+
 ---
 
 ## 🌐 Sistemas Distribuidos y Fiabilidad
@@ -192,6 +204,13 @@
   * [[Desarrollo Profesional/IA/Páginas/02 - Prompt Engineering|02 — Prompt Engineering]] — zero-shot, few-shot, CoT, structured output
   * [[Desarrollo Profesional/IA/Páginas/03 - RAG|03 — RAG]] — chunking, pgvector, ChromaDB, reranking
   * [[Desarrollo Profesional/IA/Páginas/04 - Agentes y MCP|04 — Agentes y MCP]] — tool use, loop de agente, Model Context Protocol
+
+### 🔁 Loop Engineering — Ingeniería de Bucles Agénticos
+* [[Desarrollo Profesional/Loop Engineering/Loop Engineering|Índice de Loop Engineering]]
+  * [[Desarrollo Profesional/Loop Engineering/Páginas/01 - Qué es y el Bucle Agéntico|01 — Qué es y el Bucle Agéntico]] — del prompt al loop, percibir-pensar-actuar-observar
+  * [[Desarrollo Profesional/Loop Engineering/Páginas/02 - Diseño del Bucle y Herramientas|02 — Diseño del Bucle y Herramientas]] — harness, tools, context engineering, parada
+  * [[Desarrollo Profesional/Loop Engineering/Páginas/03 - Verificación Evals y Guardarraíles|03 — Verificación, Evals y Guardarraíles]] — cerrar el bucle, evals, human-in-the-loop
+  * [[Desarrollo Profesional/Loop Engineering/Páginas/04 - Operación Autonomía y Antipatrones|04 — Operación, Autonomía y Antipatrones]] — autonomía, multi-agente, coste, antipatrones
 
 ### 🧱 Pydantic (enfocado en IA)
 * [[Desarrollo Profesional/Pydantic/Pydantic|Índice de Pydantic]]

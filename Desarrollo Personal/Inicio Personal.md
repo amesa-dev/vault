@@ -62,6 +62,16 @@ Habilidades para conectar, entender y resolver conflictos.
 
 ---
 
+## 📓 Diario y Lecturas
+
+Herramientas para registrar tu evolución y no perderte ningún libro.
+
+- [[Desarrollo Personal/Journaling/Journaling|📓 Journaling Diario]] — registra ánimo y notas del día; incluye plantilla lista para copiar
+- [[Desarrollo Personal/Journaling/Plantilla Diaria|📄 Plantilla Diaria]] — la hoja fresca para copiar cada día
+- [[Desarrollo Personal/Lecturas/Seguimiento de Lecturas|📚 Seguimiento de Lecturas]] — leyendo, pendientes y leídos, con valoraciones y reto del año
+
+---
+
 ## 🎯 Metas y Seguimiento
 
 ### Metas actuales
@@ -74,6 +84,7 @@ Habilidades para conectar, entender y resolver conflictos.
 - **Noche:** Planificación del día siguiente | Sin pantallas 30 min antes de dormir
 
 ### Biblioteca
+- Lleva el control completo en [[Desarrollo Personal/Lecturas/Seguimiento de Lecturas|📚 Seguimiento de Lecturas]]
 - *Leyendo actualmente:*
 - *Siguientes en la lista:*
 - *Leídos:*

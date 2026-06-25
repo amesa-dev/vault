@@ -18,10 +18,10 @@ Centro de aprendizaje, proyectos, desarrollo de carrera y documentación técnic
 - *Datos:* [[Desarrollo Profesional/PostgreSQL/PostgreSQL|PostgreSQL]], [[Desarrollo Profesional/Redis/Redis|Redis]]
 - *Infra y Cloud:* [[Desarrollo Profesional/GCP/GCP|GCP]], [[Desarrollo Profesional/Kubernetes/Kubernetes|Kubernetes]], [[Desarrollo Profesional/Docker y Contenedores/Docker y Contenedores|Docker]], [[Desarrollo Profesional/CI-CD e IaC/CI-CD e IaC|CI/CD e IaC]]
 - *Observabilidad:* [[Desarrollo Profesional/Grafana/Grafana|Grafana]], [[Desarrollo Profesional/Prometheus/Prometheus|Prometheus]], [[Desarrollo Profesional/Kibana/Kibana|Kibana]]
-- *Arquitectura y diseño:* [[Desarrollo Profesional/DDD/DDD|DDD]], [[Desarrollo Profesional/Arquitectura Hexagonal/Arquitectura Hexagonal|Arquitectura Hexagonal]], [[Desarrollo Profesional/Clean Code/Clean Code|Clean Code]], [[Desarrollo Profesional/Diseño de APIs/Diseño de APIs|Diseño de APIs]]
+- *Arquitectura y diseño:* [[Desarrollo Profesional/DDD/DDD|DDD]], [[Desarrollo Profesional/Arquitectura Hexagonal/Arquitectura Hexagonal|Arquitectura Hexagonal]], [[Desarrollo Profesional/Clean Code/Clean Code|Clean Code]], [[Desarrollo Profesional/Diseño de APIs/Diseño de APIs|Diseño de APIs]], [[Desarrollo Profesional/RESTful/RESTful|RESTful]], [[Desarrollo Profesional/CQRS/CQRS|CQRS]]
 - *Sistemas y fiabilidad:* [[Desarrollo Profesional/Sistemas Distribuidos/Sistemas Distribuidos|Sistemas Distribuidos]], [[Desarrollo Profesional/Patrones de Resiliencia/Patrones de Resiliencia|Resiliencia]], [[Desarrollo Profesional/Diseño de Sistemas/Diseño de Sistemas|Diseño de Sistemas]]
 - *Seguridad y calidad:* [[Desarrollo Profesional/Seguridad Aplicada/Seguridad Aplicada|Seguridad Aplicada]], [[Desarrollo Profesional/Estrategia de Testing/Estrategia de Testing|Estrategia de Testing]]
-- *IA:* [[Desarrollo Profesional/IA/IA|IA]]
+- *IA:* [[Desarrollo Profesional/IA/IA|IA]], [[Desarrollo Profesional/Loop Engineering/Loop Engineering|Loop Engineering]]
 
 ---
 
