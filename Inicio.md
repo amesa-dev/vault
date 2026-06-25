@@ -9,8 +9,16 @@ Bienvenido a tu centro de control personal y profesional. Aquí puedes organizar
 ## 🗺️ Áreas Principales
 
 ### 🌳 [[Desarrollo Personal/Inicio Personal|Desarrollo Personal]]
-Espacio dedicado al crecimiento individual, hábitos, metas de vida, salud y bienestar.
-- *Secciones sugeridas:* hábitos, lecturas, diario personal, metas anuales.
+Espacio dedicado al crecimiento individual: mentalidad, hábitos, salud, relaciones y sentido.
+- *Mentalidad:* [[Desarrollo Personal/Mentalidad/Stoicismo|Stoicismo]], [[Desarrollo Personal/Mentalidad/Modelos Mentales|Modelos Mentales]], [[Desarrollo Personal/Mentalidad/Sesgos Cognitivos|Sesgos Cognitivos]]
+- *Productividad:* [[Desarrollo Personal/Productividad/Deep Work|Deep Work]], [[Desarrollo Personal/Productividad/GTD|GTD]], [[Desarrollo Personal/Productividad/Priorización|Priorización]]
+- *Finanzas:* [[Desarrollo Personal/Finanzas/Inversión Indexada|Inversión Indexada]], [[Desarrollo Personal/Finanzas/Fondo de Emergencia|Fondo de Emergencia]], [[Desarrollo Personal/Finanzas/Independencia Financiera (FIRE)|FIRE]]
+- *Salud y bienestar:* [[Desarrollo Personal/Salud y Bienestar/Higiene del Sueño|Higiene del Sueño]], [[Desarrollo Personal/Salud y Bienestar/Respiración|Respiración]], [[Desarrollo Personal/Salud y Bienestar/Nutrición|Nutrición]]
+- *Relaciones:* [[Desarrollo Personal/Relaciones/Escucha Activa|Escucha Activa]], [[Desarrollo Personal/Relaciones/Establecer Límites|Establecer Límites]], [[Desarrollo Personal/Relaciones/Construir Confianza|Construir Confianza]]
+- *Propósito y sentido:* [[Desarrollo Personal/Propósito y Sentido/Ikigai|Ikigai]], [[Desarrollo Personal/Propósito y Sentido/Valores Personales|Valores Personales]], [[Desarrollo Personal/Propósito y Sentido/Memento Mori|Memento Mori]]
+- *Creatividad y aprendizaje:* [[Desarrollo Personal/Creatividad y Aprendizaje/Building a Second Brain|Building a Second Brain]], [[Desarrollo Personal/Creatividad y Aprendizaje/Práctica Deliberada|Práctica Deliberada]]
+- *Gestión emocional:* [[Desarrollo Personal/Gestión Emocional/Inteligencia Emocional|Inteligencia Emocional]], [[Desarrollo Personal/Gestión Emocional/Regulación Emocional|Regulación Emocional]], [[Desarrollo Personal/Gestión Emocional/Autocompasión|Autocompasión]]
+- *Diario y lecturas:* [[Desarrollo Personal/Journaling/Journaling|Journaling]], [[Desarrollo Personal/Lecturas/Seguimiento de Lecturas|Seguimiento de Lecturas]]
 
 ### 💼 [[Desarrollo Profesional/Inicio Profesional|Desarrollo Profesional]]
 Centro de aprendizaje, proyectos, desarrollo de carrera y documentación técnica.
