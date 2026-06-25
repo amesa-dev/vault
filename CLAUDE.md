@@ -10,10 +10,12 @@ Este repositorio es un **vault de Obsidian**: una base de conocimiento personal 
 
 ```
 Inicio.md                          ← portada/MOC raíz, enlaza las dos áreas
+Progreso de Lectura.md             ← índice raíz con un checkbox por sección/página (ver §5)
 Bandeja de Ideas.md                ← inbox de captura (ver §6)
 Desarrollo Personal/
   Inicio Personal.md               ← MOC del área (lista todas sus secciones)
   Mentalidad/  Productividad/  ...  ← categorías con páginas-concepto sueltas
+  Journaling/  Lecturas/            ← carpetas "sistema": plantillas y trackers personales
 Desarrollo Profesional/
   Inicio Profesional.md            ← MOC del área (lista todas sus secciones)
   DDD/  Kubernetes/  Python/  ...   ← secciones temáticas
@@ -139,8 +141,10 @@ Cuando Andrés pida "hazme una sección/área de X":
 2. **Crea las carpetas y ficheros**: el índice `Tema/Tema.md` y las páginas. Divide el tema en páginas coherentes (mira cuántas tienen secciones similares: 2–4 en temas medianos, más en cursos).
 3. **Escribe cada página** siguiendo §2 y §3 con contenido de calidad y enlaces prev/next correctos.
 4. **Registra la sección en el MOC del área**: añade su entrada en `Desarrollo Profesional/Inicio Profesional.md` o `Desarrollo Personal/Inicio Personal.md`, en el grupo temático adecuado y con el mismo formato de lista enlazada que el resto. **Una sección que no aparece en su Inicio no está terminada.**
-5. Si encaja, añade también un enlace en `Inicio.md` (portada raíz) cuando sea un área o tema de primer nivel.
-6. **No toques** la carpeta `.obsidian/` ni el `.gitignore`.
+5. **Añade la(s) entrada(s) en `Progreso de Lectura.md`**: una casilla `- [ ] [[ruta|alias]]` por sección (en Profesional) o por página-concepto (en Personal), en el grupo que corresponda. Es el segundo registro obligatorio: si no está aquí, la sección tampoco está terminada.
+6. Si encaja, añade también un enlace en `Inicio.md` (portada raíz) cuando sea un área o tema de primer nivel.
+7. **No toques** la carpeta `.obsidian/`.
+8. **Verifica los wikilinks** antes de cerrar: usa rutas completas desde la raíz y comprueba que todos resuelven (un script rápido en Python que recorra los `.md` y valide cada `[[...]]` contra los ficheros existentes evita enlaces rotos).
 
 ---
 
@@ -158,6 +162,14 @@ Es el **inbox de captura rápida**. Andrés apunta ahí semillas de temas para d
 
 - Imita el esquema y el tono de las páginas existentes antes que inventar formato nuevo.
 - Toda página nueva: breadcrumb correcto + callouts + resumen + práctica + recursos + tags.
-- Toda sección nueva: índice propio (A/B) **y** entrada en el Inicio del área.
+- Toda sección nueva: índice propio (A/B) **y** entrada en el Inicio del área **y** casilla en `Progreso de Lectura.md`.
 - Wikilinks con ruta completa, numeración sin huecos, español de España.
 - Ante una decisión que cambie el resultado (patrón, ubicación, alcance), pregunta breve; si es trivial, decide y continúa.
+
+---
+
+## 8. Git y mantenimiento
+
+- Este vault se trabaja **directamente sobre `main`**: cuando Andrés pida "commit y push", commitea y empuja a `main` sin crear ramas ni PRs (es un vault personal, no un repo de equipo). Mensajes de commit en español, descriptivos.
+- **No commitees** ficheros ajenos al contenido: `.idea/` y `verify.py` están en `.gitignore`. Añade al `.gitignore` cualquier scratch o config de IDE que aparezca, en vez de commitearlo.
+- Sí puedes editar el `.gitignore` cuando haga falta (deja de aplicar la regla antigua de "no lo toques").
