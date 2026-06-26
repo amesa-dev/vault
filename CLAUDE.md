@@ -171,5 +171,6 @@ Es el **inbox de captura rápida**. Andrés apunta ahí semillas de temas para d
 ## 8. Git y mantenimiento
 
 - Este vault se trabaja **directamente sobre `main`**: cuando Andrés pida "commit y push", commitea y empuja a `main` sin crear ramas ni PRs (es un vault personal, no un repo de equipo). Mensajes de commit en español, descriptivos.
+- **Empuja siempre a los dos remotos**: el repo tiene `origin` (GitHub) y `gitlab` (GitLab). Cada vez que hagas push, hazlo a ambos (`git push origin main` **y** `git push gitlab main`) para mantenerlos sincronizados.
 - **No commitees** ficheros ajenos al contenido: `.idea/` y `verify.py` están en `.gitignore`. Añade al `.gitignore` cualquier scratch o config de IDE que aparezca, en vez de commitearlo.
 - Sí puedes editar el `.gitignore` cuando haga falta (deja de aplicar la regla antigua de "no lo toques").
