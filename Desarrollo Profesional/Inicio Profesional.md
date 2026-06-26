@@ -242,6 +242,12 @@
   * [[Desarrollo Profesional/LangChain/Páginas/02 - RAG con LangChain|02 — RAG con LangChain]] — loaders, splitters, embeddings, retrievers
   * [[Desarrollo Profesional/LangChain/Páginas/03 - Agentes y LangGraph|03 — Agentes y LangGraph]] — tools, bucle del agente, grafos de estado
 
+### 🕸️ LangGraph — Agentes con Estado
+* [[Desarrollo Profesional/LangGraph/LangGraph|Índice de LangGraph]]
+  * [[Desarrollo Profesional/LangGraph/Páginas/01 - Grafos Estado y Nodos|01 — Grafos, Estado y Nodos]] — StateGraph, estado, reducers, nodos
+  * [[Desarrollo Profesional/LangGraph/Páginas/02 - Aristas Condicionales y el Patrón Agente|02 — Aristas Condicionales y el Patrón Agente]] — ciclos, ToolNode, bucle ReAct
+  * [[Desarrollo Profesional/LangGraph/Páginas/03 - Persistencia Memoria y Human-in-the-Loop|03 — Persistencia, Memoria y Human-in-the-Loop]] — checkpointers, thread_id, interrupt
+
 ### 🎙️ LiveKit — Agentes de Voz
 * [[Desarrollo Profesional/LiveKit/LiveKit|Índice de LiveKit]]
   * [[Desarrollo Profesional/LiveKit/Páginas/01 - Fundamentos de Tiempo Real|01 — Fundamentos de Tiempo Real]] — WebRTC, Rooms, Participants, Tracks, SFU

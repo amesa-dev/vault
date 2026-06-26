@@ -1,6 +1,6 @@
 # 📘 00 — Introducción y Setup
 
-[[Desarrollo Profesional/TypeScript/TypeScript|⬅️ Volver al índice de TypeScript]]
+[[Desarrollo Profesional/TypeScript/TypeScript|⬅️ Volver al índice de TypeScript]] | [[Desarrollo Profesional/TypeScript/01 - Tipos Básicos|01 →]]
 
 > [!abstract] Introducción
 > TypeScript es JavaScript con un sistema de tipos estático. Pero la frase se queda corta: el sistema de tipos de TypeScript es uno de los más expresivos que existen en cualquier lenguaje, capaz de modelar estructuras de datos complejas que JavaScript ni siquiera puede describir. Esta primera página establece qué es TypeScript, cómo funciona internamente y cómo montar un entorno de trabajo profesional.

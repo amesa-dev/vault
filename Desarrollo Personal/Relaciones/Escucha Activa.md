@@ -130,7 +130,7 @@ En el trabajo de desarrollo, la escucha activa tiene aplicaciones concretas:
 ### Recursos
 - 📖 *Just Listen* — Mark Goulston (muy práctico, especialmente para contextos difíciles)
 - 📖 *The Lost Art of Listening* — Michael P. Nichols (profundo en los mecanismos psicológicos)
-- 📖 *Nonviolent Communication* — Marshall Rosenberg (complemento natural — [[Comunicación No Violenta]])
+- 📖 *Nonviolent Communication* — Marshall Rosenberg (complemento natural — [[Desarrollo Personal/Relaciones/Comunicación No Violenta|Comunicación No Violenta]])
 - 📄 Rogers, C. R., & Farson, R. E. (1957). *Active Listening*. University of Chicago Press.
 
 ---

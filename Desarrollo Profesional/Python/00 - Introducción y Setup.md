@@ -1,6 +1,6 @@
 # 🐍 00 — Introducción y Setup
 
-[[Desarrollo Profesional/Python/Python|⬅️ Volver al índice de Python]]
+[[Desarrollo Profesional/Python/Python|⬅️ Volver al índice de Python]] | [[Desarrollo Profesional/Python/01 - Tipos Primitivos y Variables|01 →]]
 
 > [!abstract] Introducción
 > Antes de escribir la primera línea de Python útil, hay que entender cómo funciona el ecosistema: el intérprete, los entornos virtuales y las herramientas modernas de gestión de proyectos. Saltarse este paso genera confusión con paquetes, versiones y entornos que se mezclan sin control.

@@ -20,7 +20,7 @@
 Una caja de piezas componibles (prompts, modelos, parsers, recuperadores, tools) y un pegamento estándar (**LCEL**) para encadenarlas en aplicaciones LLM mantenibles e intercambiables entre proveedores.
 
 > [!tip] LangChain, LangGraph y el ecosistema
-> El proyecto se ha dividido: **LangChain** (componentes y cadenas), **LangGraph** (agentes y flujos con estado, lo serio para producción) y **LangSmith** (observabilidad propia, comparable a [[Desarrollo Profesional/Langfuse/Langfuse|Langfuse]]). Para tipado estricto y ligereza, compáralo con [[Desarrollo Profesional/Pydantic/Páginas/03 - PydanticAI y Agentes|PydanticAI]].
+> El proyecto se ha dividido: **LangChain** (componentes y cadenas), **[[Desarrollo Profesional/LangGraph/LangGraph|LangGraph]]** (agentes y flujos con estado, lo serio para producción) y **LangSmith** (observabilidad propia, comparable a [[Desarrollo Profesional/Langfuse/Langfuse|Langfuse]]). Para tipado estricto y ligereza, compáralo con [[Desarrollo Profesional/Pydantic/Páginas/03 - PydanticAI y Agentes|PydanticAI]].
 
 ---
 

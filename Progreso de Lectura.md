@@ -55,6 +55,7 @@
 - [ ] [[Desarrollo Profesional/Loop Engineering/Loop Engineering|🔁 Loop Engineering]]
 - [ ] [[Desarrollo Profesional/Pydantic/Pydantic|🧱 Pydantic]]
 - [ ] [[Desarrollo Profesional/LangChain/LangChain|🦜 LangChain]]
+- [ ] [[Desarrollo Profesional/LangGraph/LangGraph|🕸️ LangGraph]]
 - [ ] [[Desarrollo Profesional/LiveKit/LiveKit|🎙️ LiveKit]]
 - [ ] [[Desarrollo Profesional/Pipecat/Pipecat|🐦 Pipecat]]
 - [ ] [[Desarrollo Profesional/Langfuse/Langfuse|📊 Langfuse]]
