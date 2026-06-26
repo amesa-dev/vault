@@ -16,6 +16,7 @@
 - [ ] [[Desarrollo Profesional/Python/Python|🐍 Python]]
 - [ ] [[Desarrollo Profesional/TypeScript/TypeScript|📘 TypeScript]]
 - [ ] [[Desarrollo Profesional/React/React|⚛️ React]]
+- [ ] [[Desarrollo Profesional/Android Kotlin/Android Kotlin|📱 Android / Kotlin]]
 
 ### 🗄️ Bases de Datos
 - [ ] [[Desarrollo Profesional/PostgreSQL/PostgreSQL|🐘 PostgreSQL]]
