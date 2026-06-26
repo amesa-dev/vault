@@ -30,6 +30,7 @@
 12. [[Desarrollo Profesional/Android Kotlin/11 - Arquitectura MVVM y ViewModel|11 - Arquitectura MVVM y ViewModel]] — ViewModel, UI State, capas, unidirectional data flow
 13. [[Desarrollo Profesional/Android Kotlin/12 - Datos Room Retrofit y Repositorios|12 - Datos: Room, Retrofit y Repositorios]] — persistencia, red, patrón repositorio
 14. [[Desarrollo Profesional/Android Kotlin/13 - Inyección de Dependencias y Testing|13 - Inyección de Dependencias y Testing]] — Hilt, tests unitarios, tests de UI
+15. [[Desarrollo Profesional/Android Kotlin/14 - Trabajo en Segundo Plano y Notificaciones|14 - Trabajo en Segundo Plano y Notificaciones]] — WorkManager, foreground services, notificaciones
 
 ---
 
@@ -39,7 +40,7 @@
 Kotlin base   → 00 → 01 → 02 → 03 → 04
 Kotlin async  → 05 → 06
 Compose       → 07 → 08 → 09
-App real      → 10 → 11 → 12 → 13
+App real      → 10 → 11 → 12 → 13 → 14
 ```
 
 > [!tip] Aprende construyendo

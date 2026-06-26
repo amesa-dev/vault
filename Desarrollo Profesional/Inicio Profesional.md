@@ -72,6 +72,7 @@
   * [[Desarrollo Profesional/Android Kotlin/11 - Arquitectura MVVM y ViewModel|11 — Arquitectura MVVM y ViewModel]]
   * [[Desarrollo Profesional/Android Kotlin/12 - Datos Room Retrofit y Repositorios|12 — Datos: Room, Retrofit y Repositorios]]
   * [[Desarrollo Profesional/Android Kotlin/13 - Inyección de Dependencias y Testing|13 — Inyección de Dependencias y Testing]]
+  * [[Desarrollo Profesional/Android Kotlin/14 - Trabajo en Segundo Plano y Notificaciones|14 — Trabajo en Segundo Plano y Notificaciones]]
 
 ---
 

@@ -19,7 +19,7 @@
 | Estado | Idea / Tema | Área | Nota rápida (por qué me interesa) |
 |:---:|---|---|---|
 | 🌱 | *(ejemplo)* gRPC streaming en Python | Profesional | profundizar más allá del caso de APIs |
-| 🌱 |  |  |  |
+| 🌱 | Kotlin Multiplatform (KMP) | Profesional | compartir lógica entre Android e iOS; continuación natural del curso de Android / Kotlin |
 | 🌱 |  |  |  |
 | 🌱 |  |  |  |
 

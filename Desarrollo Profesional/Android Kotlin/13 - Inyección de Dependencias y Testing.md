@@ -1,6 +1,6 @@
 # 📱 13 — Inyección de Dependencias y Testing
 
-[[Desarrollo Profesional/Android Kotlin/Android Kotlin|⬅️ Volver al índice]] | [[Desarrollo Profesional/Android Kotlin/12 - Datos Room Retrofit y Repositorios|← 12]]
+[[Desarrollo Profesional/Android Kotlin/Android Kotlin|⬅️ Volver al índice]] | [[Desarrollo Profesional/Android Kotlin/12 - Datos Room Retrofit y Repositorios|← 12]] | [[Desarrollo Profesional/Android Kotlin/14 - Trabajo en Segundo Plano y Notificaciones|14 →]]
 
 > [!abstract] Introducción
 > Llegamos al último escalón de una app profesional: cómo se ensamblan todas las piezas y cómo se prueban. La **inyección de dependencias** (con Hilt) hace que el ViewModel reciba su repositorio en vez de crearlo, lo que desacopla y facilita los tests. Y el **testing** —unitario y de UI— te da la confianza para refactorizar sin miedo. Esta página cierra el curso conectando arquitectura, DI y pruebas.
