@@ -121,6 +121,7 @@ Herramientas para registrar tu evolución y no perderte ningún libro.
 - [[Desarrollo Personal/Journaling/Journaling|📓 Journaling Diario]] — registra ánimo y notas del día; incluye plantilla lista para copiar
 - [[Desarrollo Personal/Journaling/Plantilla Diaria|📄 Plantilla Diaria]] — la hoja fresca para copiar cada día
 - [[Desarrollo Personal/Lecturas/Seguimiento de Lecturas|📚 Seguimiento de Lecturas]] — leyendo, pendientes y leídos, con valoraciones y reto del año
+- [[Desarrollo Personal/Análisis de Libros/Análisis de Libros|📖 Análisis de Libros]] — comentamos y diseccionamos libros en profundidad; empezamos con *Meditaciones*
 
 ---
 

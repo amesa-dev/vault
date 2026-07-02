@@ -134,6 +134,7 @@
 ### 📓 Diario y Lecturas
 - [ ] [[Desarrollo Personal/Journaling/Journaling|📓 Journaling Diario]]
 - [ ] [[Desarrollo Personal/Lecturas/Seguimiento de Lecturas|📚 Seguimiento de Lecturas]]
+- [ ] [[Desarrollo Personal/Análisis de Libros/Análisis de Libros|📖 Análisis de Libros]]
 
 ---
 `#home` `#progreso` `#indice`
